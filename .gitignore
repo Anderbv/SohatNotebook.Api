@@ -1,0 +1,44 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+
+# Build outputs
+bin/
+obj/
+*.pdb
+
+# Docker
+.dockerignore
+Dockerfile
+obj/Container/
+
+# Configuración y archivos de entorno
+appsettings*.json
+libman.json
+
+# NuGet
+*.nupkg
+project.lock.json
+project.assets.json
+obj/*.nuget.*
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Archivos de depuración y configuraciones locales
+Properties/launchSettings.json
+*.log
+
+# Archivos de indexación y metadatos de Visual Studio
+.vs/
+.vs/**/*
+
+# Archivos específicos detectados en tu lista
+**/*.vsidx
+**/.futdcache.v2
+**/DocumentLayout.json
